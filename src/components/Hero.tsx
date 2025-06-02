@@ -35,36 +35,40 @@ const Hero = () => {
               width={450}
               height={450}
               className="border border-stone-900 rounded-3xl"
-              initial={{x:100,opacity:0}}
-              animate={{x:0,opacity:1}}
-              transition={{duration:1,delay:1.5}}
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 1.5 }}
             />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <motion.div className="flex flex-col items-center lg:items-start mt-10"
-          initial="hidden"
-          animate="visible"
-          variants={containerVariants}
+          <motion.div
+            className="flex flex-col items-center lg:items-start mt-10"
+            initial="hidden"
+            animate="visible"
+            variants={containerVariants}
           >
-            <motion.h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl"
-            variants={children}
+            <motion.h2
+              className="pb-2 text-4xl tracking-tighter lg:text-8xl"
+              variants={children}
             >
               Abdullah Safi
             </motion.h2>
-            <motion.span 
-            variants={children}
-            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-light text-center lg:text-start text-transparent">
+            <motion.span
+              variants={children}
+              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-light text-center lg:text-start text-transparent"
+            >
               Front End Developer
             </motion.span>
-            <motion.p 
-            variants={children}
-            className="my-2 max-2-lg py-6 text-xl leading-relaxed text-center lg:text-start tracking-tighter">
+            <motion.p
+              variants={children}
+              className="my-2 max-2-lg py-6 text-xl leading-relaxed text-center lg:text-start tracking-tighter"
+            >
               {" "}
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-            variants={children}
+              variants={children}
               href="./resume.pdf"
               target="_blank"
               role="noopener noreferrer"

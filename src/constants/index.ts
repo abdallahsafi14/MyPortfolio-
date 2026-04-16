@@ -5,17 +5,9 @@ import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/project-5.png";
 import project2 from "../assets/projects/project-6.png";
 
-export const HERO_CONTENT: string = `I am a dedicated and versatile front-end developer with two years of experience, 
-committed to expanding my skill set and knowledge in this dynamic field. I strive to blend creativity with technical 
-proficiency to deliver visually appealing and functional websites. Currently pursuing IT engineering at Homs University, 
-I am seeking opportunities to leverage my skills in front-end development to contribute to dynamic projects and help 
-businesses enhance their online presence.`;
+export const HERO_CONTENT: string = `As a front-end developer with two years of experience, I am committed to expanding my skill set and knowledge in this dynamic field. I strive to blend creativity with technical proficiency to deliver visually appealing and functional websites. Seeking opportunities to leverage my skills and expertise in front-end development to contribute to dynamic projects and help businesses enhance their online presence.`;
 
-export const ABOUT_TEXT: string = `I am a dedicated and versatile front-end developer with two years of experience, 
-committed to expanding my skill set and knowledge in this dynamic field. I strive to blend creativity with technical 
-proficiency to deliver visually appealing and functional websites. Currently pursuing IT engineering at Homs University, 
-I am seeking opportunities to leverage my skills in front-end development to contribute to dynamic projects and help 
-businesses enhance their online presence.`;
+export const ABOUT_TEXT: string = `As a front-end developer with two years of experience, I am committed to expanding my skill set and knowledge in this dynamic field. I strive to blend creativity with technical proficiency to deliver visually appealing and functional websites. Currently pursuing IT engineering at Homs University, I am seeking opportunities to leverage my skills in front-end development to contribute to dynamic projects and help businesses enhance their online presence.`;
 
 export interface Experience {
   year: string;
@@ -31,21 +23,49 @@ export const EXPERIENCES: Experience[] = [
     role: "Front-End Developer",
     company: "Zedni",
     description:
-      "Built a professional portfolio website for the company using WordPress, showcasing their services and enhancing their online presence. Developed a comprehensive cleaning services website with modern design and user-friendly interface to improve customer engagement and service accessibility.",
-    technologies: ["WordPress", "React.js", "Next.js"],
-  },
-  {
-    year: "2024 - 2025",
-    role: "Front-End Developer",
-    company: "Sputix",
-    description:
-      "Built and developed a comprehensive e-commerce platform with advanced features including product management, user authentication, and payment integration. Created a multi-language website with internationalization support, enhancing user experience for diverse audiences across different regions.",
+      "Developed a price comparison web platform helping users find the best product prices across multiple retail stores. Built a responsive interface enabling product search by name and category, advanced filtering and sorting features (by price, distance, and store), integrated real-time price tracking, and collaborated on translating Figma designs into pixel-perfect front-end components.",
     technologies: [
       "React.js",
       "Next.js",
-      "JavaScript",
       "TypeScript",
-      "i18next",
+      "Tailwind CSS",
+      "REST API",
+    ],
+  },
+  {
+    year: "2025 - Present",
+    role: "Front-End Developer",
+    company: "Shihal",
+    description:
+      "Created a multi-language website with internationalization support. Developed responsive UI components, ensured cross-browser compatibility, and optimized performance for both desktop and mobile devices.",
+    technologies: ["React.js", "i18next", "CSS3", "Responsive Design"],
+  },
+  {
+    year: "2025",
+    role: "Front-End Developer",
+    company: "PMGT (CRM & Project Management Platform)",
+    description:
+      "Developed a CRM and project management web application inspired by Jira. Built intuitive dashboards for tracking project progress, implemented task management features including creation, assignment, prioritization, and status updates, designed Kanban-style boards, created responsive reusable UI components, and implemented role-based UI access for different user types.",
+    technologies: [
+      "React.js",
+      "Redux",
+      "Styled Components",
+      "REST API",
+      "Kanban",
+    ],
+  },
+  {
+    year: "2024 - 2025",
+    role: "Front-End Developer Intern",
+    company: "Sputex",
+    description:
+      "Contributed to an e-commerce web application development. Built and styled responsive UI components for product listings, product details, and shopping cart pages. Assisted in implementing core e-commerce features, collaborated with senior developers, and gained hands-on experience with real-world codebases.",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "CSS3",
+      "Git",
+      "Responsive Design",
     ],
   },
 ];
@@ -59,32 +79,64 @@ export interface PROJECTS {
 
 export const PROJECTS = [
   {
-    title: "Project Management System",
+    title: "Price Comparison Platform",
+    image: project1,
+    description:
+      "Developed a price comparison web platform that helps users find the best product prices across multiple retail stores. Features include multi-language support, product search by name and category, advanced filtering and sorting by price, distance, and store, plus real-time price tracking.",
+    technologies: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "i18next",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    title: "CRM & Project Management Platform",
     image: project5,
     description:
-      "Developed a comprehensive project management system with features including task creation and assignment, project timeline tracking, team collaboration tools, and progress monitoring dashboards. Implemented user role management, file sharing capabilities, real-time notifications, and detailed reporting analytics to enhance team productivity and project oversight.",
-    technologies: ["React.js", "Styled Components", "prime react", "Redux"],
+      "Built a comprehensive CRM and project management system inspired by Jira. Features include intuitive dashboards for tracking progress, task creation and assignment, Kanban-style boards for workflow visualization, role-based UI access, and reusable component architecture.",
+    technologies: ["React.js", "Redux", "Styled Components", "REST API"],
   },
   {
     title: "ZEDNI Company Portfolio",
     image: project6,
     description:
-      "Built a professional portfolio website for Zedni company using WordPress, showcasing their services, team, and company achievements. Designed a modern, responsive layout with custom themes, integrated contact forms, and optimized SEO to enhance their online presence and attract potential clients.",
-    technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
+      "Built a professional portfolio website for Zedni company using WordPress, showcasing their services, team, and company achievements. Designed a modern, responsive layout with custom themes, integrated contact forms, and optimized SEO to enhance their online presence.",
+    technologies: ["WordPress", "PHP", "CSS3", "JavaScript", "SEO"],
   },
   {
     title: "E-Commerce Platform",
     image: project1,
     description:
-      "Developed a modern e-commerce platform with robust features, including product and category management, multi-user roles with permission control, and dynamic ad placement. Implemented multi-theme support using Styled Components and integrated multilingual functionality with i18next. Built secure authentication systems for both customers and admin users.",
-    technologies: ["React.js", "Styled Components", "i18next"],
+      "Developed a modern e-commerce platform with robust features including product and category management, multi-user roles with permission control, dynamic ad placement, multi-theme support using Styled Components, multilingual functionality with i18next, and secure authentication systems.",
+    technologies: [
+      "React.js",
+      "Styled Components",
+      "i18next",
+      "Redux",
+      "REST API",
+    ],
   },
   {
     title: "Food Community Platform",
     image: project2,
     description:
-      "Built a modern food community platform using Next.js, allowing users to share, explore, and discover diverse dishes and recipes. Designed a sleek, responsive UI for seamless browsing and interaction across all devices. Implemented key features such as recipe uploads, user engagement through likes and comments, and optimized performance with Next.js server-side rendering.",
-    technologies: ["Next.js", "CSS", "Server-Side Rendering"],
+      "Built a modern food community platform using Next.js, allowing users to share, explore, and discover diverse dishes and recipes. Features include recipe uploads, user engagement through likes and comments, server-side rendering for optimal performance, and responsive design.",
+    technologies: ["Next.js", "CSS3", "Server-Side Rendering", "REST API"],
+  },
+  {
+    title: "Dashonic Dashboard",
+    image: project3,
+    description:
+      "Developed a fully responsive and dynamic dashboard application with Chart.js for interactive data visualizations and React-Data-Table-Component for efficient data management. Implemented multilingual support with i18next for enhanced accessibility.",
+    technologies: [
+      "React.js",
+      "Styled Components",
+      "Chart.js",
+      "i18next",
+      "Data Tables",
+    ],
   },
   {
     title: "Personal Portfolio",
@@ -93,13 +145,6 @@ export const PROJECTS = [
       "Built a modern and responsive personal portfolio website using React.js and TypeScript for robust, type-safe development. Styled with Tailwind CSS for a sleek and consistent design, and integrated Framer Motion to deliver smooth animations and interactive user experiences.",
     technologies: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
   },
-  {
-    title: "Dashonic Dashboard",
-    image: project3,
-    description:
-      "Developed a fully responsive and dynamic dashboard application using React.js and Styled-Components for modern UI design. Integrated Chart.js for interactive data visualizations and React-Data-Table-Component for efficient data management. Implemented multilingual support with i18next, enhancing user accessibility across different languages.",
-    technologies: ["React.js", "Styled Components", "Chart.js", "i18next"],
-  },
 ];
 
 export const CONTACT = {
@@ -107,5 +152,5 @@ export const CONTACT = {
   phoneNo: "+963 997 022 873",
   email: "abdallahsafi414@gmail.com",
   github: "https://github.com/abdallahsafi14",
-  linkedin: "www.linkedin.com/in/abdallahsafi14",
+  linkedin: "https://linkedin.com/in/abdallahsafi14",
 };

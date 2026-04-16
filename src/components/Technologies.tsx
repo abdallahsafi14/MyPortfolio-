@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
-import { FaBootstrap } from "react-icons/fa";
+import { FaBootstrap, FaVuejs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
@@ -102,6 +102,12 @@ const Technologies = () => {
       color: "text-orange-500",
       name: "Git",
       duration: 4.5,
+    },
+    {
+      icon: <FaVuejs />,
+      color: "text-emerald-500",
+      name: "Vuex",
+      duration: 2.6,
     },
   ];
 

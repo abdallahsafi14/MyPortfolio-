@@ -1,5 +1,5 @@
 import logo from "../assets/raviKumarLogo.png";
-import { FaLinkedin,FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
@@ -8,13 +8,13 @@ const Navbar = () => {
           <img src={logo} alt="" className="mx-2" width={50} height={33} />
         </a>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="mx-8 flex items-center justify-center gap-4 text-2xl">
         <a
           href="https://linkedin.com/in/abdallah-safi-a5663b306"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-        className="text-zinc-50"
+          className="text-zinc-50"
         >
           {" "}
           <FaLinkedin />
@@ -25,9 +25,9 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="GitHub"
           className="text-zinc-50"
-          >
+        >
           {" "}
-          <FaGithub/>
+          <FaGithub />
         </a>
         <a
           href="https://www.instagram.com/abdallahsafi3?igsh=MXJzMGc2d211eWk4cw=="
@@ -35,9 +35,9 @@ const Navbar = () => {
           rel="noopener noreferrer"
           aria-label="Instagram"
           className="text-zinc-50"
-          >
+        >
           {" "}
-          <FaInstagram/>
+          <FaInstagram />
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=100011182025231"

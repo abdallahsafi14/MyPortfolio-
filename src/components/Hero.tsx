@@ -134,7 +134,7 @@ const Hero = () => {
         >
           {[
             {
-              value: "2+",
+              value: "3+",
               label: "Years Experience",
               icon: <MdOutlineWork className="text-cyan-400" />,
             },

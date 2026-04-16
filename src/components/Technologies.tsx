@@ -106,7 +106,7 @@ const Technologies = () => {
     {
       icon: <FaVuejs />,
       color: "text-emerald-500",
-      name: "Vuex",
+      name: "Vue.js",
       duration: 2.6,
     },
   ];

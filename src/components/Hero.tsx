@@ -13,7 +13,7 @@ const Hero = () => {
     "React Developer",
     "Next.js Expert",
     "Front End Developer",
-    "UI/UX Enthusiast",
+    "Vue.js Developer",
   ];
 
   useEffect(() => {
